@@ -32,4 +32,17 @@ class BornViewController: UIViewController {
     }
     */
 
+    @IBAction func nextButton(sender: AnyObject) {
+        let alertController = UIAlertController(title: "人生の選択", message: "桃太郎を育てますか？", preferredStyle: .Alert)
+        let defaultAction = UIAlertAction(title: "はい", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+            self.performSegueWithIdentifier("moveDepartures", sender: nil)
+        }
+        let cancelAction = UIAlertAction(title: "いいえ", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+            self.performSegueWithIdentifier("moveGameOver", sender: nil)
+        }
+        
+        alertController.addAction(defaultAction)
+        alertController.addAction(cancelAction)
+        presentViewController(alertController, animated: true, completion: nil)
+    }
 }

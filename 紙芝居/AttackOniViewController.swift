@@ -10,10 +10,14 @@ import UIKit
 
 class AttackOniViewController: UIViewController {
 
+    @IBOutlet weak var attackOniView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let requestURL = NSURL(string: "https://www.youtube.com/watch?v=GzZhFO7TpQM")
+        let req = NSURLRequest(URL: requestURL!)
+        self.attackOniView.loadRequest(req)
     }
 
     override func didReceiveMemoryWarning() {

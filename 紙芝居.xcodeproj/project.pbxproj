@@ -7,12 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F07E3831C4A5A5400986AD7 /* HoriNameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07E3821C4A5A5400986AD7 /* HoriNameClass.swift */; };
+		7F31E1AB1B8B5ACD00DEDDE1 /* BornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31E1AA1B8B5ACD00DEDDE1 /* BornViewController.swift */; };
 		7F450D831B71248100C63788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F450D821B71248100C63788 /* AppDelegate.swift */; };
 		7F450D851B71248100C63788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F450D841B71248100C63788 /* ViewController.swift */; };
 		7F450D881B71248100C63788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F450D861B71248100C63788 /* Main.storyboard */; };
 		7F450D8A1B71248100C63788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F450D891B71248100C63788 /* Images.xcassets */; };
 		7F450D8D1B71248100C63788 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F450D8B1B71248100C63788 /* LaunchScreen.xib */; };
 		7F450D991B71248200C63788 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F450D981B71248200C63788 /* ___Tests.swift */; };
+		7F7AC7421B7A1CA200457D53 /* おじいちゃんとおばあちゃん.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7411B7A1CA200457D53 /* おじいちゃんとおばあちゃん.png */; };
+		7F7AC7441B7A23A600457D53 /* 芝刈りと選択.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7431B7A23A600457D53 /* 芝刈りと選択.png */; };
+		7F7AC7461B7A24BF00457D53 /* ももとおばあちゃん.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7451B7A24BF00457D53 /* ももとおばあちゃん.jpeg */; };
+		7F7AC74A1B7A2A4300457D53 /* ゲームオーバ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7491B7A2A4300457D53 /* ゲームオーバ.jpeg */; };
+		7F7AC74C1B7A2B9F00457D53 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7AC74B1B7A2B9F00457D53 /* GameOverViewController.swift */; };
+		7F7AC74E1B7A31C200457D53 /* 桃太郎誕生.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC74D1B7A31C200457D53 /* 桃太郎誕生.png */; };
+		7F7AC7521B7A34AA00457D53 /* 桃太郎.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7511B7A34AA00457D53 /* 桃太郎.png */; };
+		7F7AC7541B7A34E900457D53 /* DeparturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7AC7531B7A34E900457D53 /* DeparturesViewController.swift */; };
+		7F7AC7561B7A37BF00457D53 /* ギャル遊び.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7551B7A37BF00457D53 /* ギャル遊び.jpg */; };
+		7F7AC7581B7A390C00457D53 /* ぐれる.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7571B7A390C00457D53 /* ぐれる.jpg */; };
+		7F7AC75A1B7A41EA00457D53 /* MeetFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7AC7591B7A41EA00457D53 /* MeetFriendViewController.swift */; };
+		7F7AC75F1B7A4A9300457D53 /* 仲間レベル1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC75B1B7A4A9300457D53 /* 仲間レベル1.gif */; };
+		7F7AC7601B7A4A9300457D53 /* 仲間レベル2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC75C1B7A4A9300457D53 /* 仲間レベル2.png */; };
+		7F7AC7611B7A4A9300457D53 /* 仲間レベル3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC75D1B7A4A9300457D53 /* 仲間レベル3.jpeg */; };
+		7F7AC7621B7A4A9300457D53 /* 仲間レベル4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC75E1B7A4A9300457D53 /* 仲間レベル4.jpeg */; };
+		7F7AC7641B7A53D100457D53 /* AttackOniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7AC7631B7A53D100457D53 /* AttackOniViewController.swift */; };
+		7F7AC76D1B7A5CBC00457D53 /* 背景1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7651B7A5CBC00457D53 /* 背景1.jpg */; };
+		7F7AC76E1B7A5CBC00457D53 /* 背景2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7661B7A5CBC00457D53 /* 背景2.jpg */; };
+		7F7AC76F1B7A5CBC00457D53 /* 背景3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7671B7A5CBC00457D53 /* 背景3.jpeg */; };
+		7F7AC7701B7A5CBC00457D53 /* 背景4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7681B7A5CBC00457D53 /* 背景4.jpg */; };
+		7F7AC7711B7A5CBC00457D53 /* 背景5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7691B7A5CBC00457D53 /* 背景5.jpg */; };
+		7F7AC7721B7A5CBC00457D53 /* 背景6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC76A1B7A5CBC00457D53 /* 背景6.jpeg */; };
+		7F7AC7731B7A5CBC00457D53 /* 背景7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC76B1B7A5CBC00457D53 /* 背景7.jpg */; };
+		7F7AC7741B7A5CBC00457D53 /* 背景8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC76C1B7A5CBC00457D53 /* 背景8.jpg */; };
+		7F7AC7761B7A64D300457D53 /* 背景9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7AC7751B7A64D300457D53 /* 背景9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F07E3821C4A5A5400986AD7 /* HoriNameClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoriNameClass.swift; sourceTree = "<group>"; };
+		7F31E1AA1B8B5ACD00DEDDE1 /* BornViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BornViewController.swift; sourceTree = "<group>"; };
 		7F450D7D1B71248100C63788 /* 紙芝居.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "紙芝居.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F450D811B71248100C63788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F450D821B71248100C63788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +65,31 @@
 		7F450D921B71248200C63788 /* 紙芝居Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "紙芝居Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F450D971B71248200C63788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F450D981B71248200C63788 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		7F7AC7411B7A1CA200457D53 /* おじいちゃんとおばあちゃん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おじいちゃんとおばあちゃん.png"; sourceTree = "<group>"; };
+		7F7AC7431B7A23A600457D53 /* 芝刈りと選択.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芝刈りと選択.png"; sourceTree = "<group>"; };
+		7F7AC7451B7A24BF00457D53 /* ももとおばあちゃん.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ももとおばあちゃん.jpeg"; sourceTree = "<group>"; };
+		7F7AC7491B7A2A4300457D53 /* ゲームオーバ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ゲームオーバ.jpeg"; sourceTree = "<group>"; };
+		7F7AC74B1B7A2B9F00457D53 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		7F7AC74D1B7A31C200457D53 /* 桃太郎誕生.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桃太郎誕生.png"; sourceTree = "<group>"; };
+		7F7AC7511B7A34AA00457D53 /* 桃太郎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桃太郎.png"; sourceTree = "<group>"; };
+		7F7AC7531B7A34E900457D53 /* DeparturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeparturesViewController.swift; sourceTree = "<group>"; };
+		7F7AC7551B7A37BF00457D53 /* ギャル遊び.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ギャル遊び.jpg"; sourceTree = "<group>"; };
+		7F7AC7571B7A390C00457D53 /* ぐれる.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ぐれる.jpg"; sourceTree = "<group>"; };
+		7F7AC7591B7A41EA00457D53 /* MeetFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetFriendViewController.swift; sourceTree = "<group>"; };
+		7F7AC75B1B7A4A9300457D53 /* 仲間レベル1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "仲間レベル1.gif"; sourceTree = "<group>"; };
+		7F7AC75C1B7A4A9300457D53 /* 仲間レベル2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "仲間レベル2.png"; sourceTree = "<group>"; };
+		7F7AC75D1B7A4A9300457D53 /* 仲間レベル3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "仲間レベル3.jpeg"; sourceTree = "<group>"; };
+		7F7AC75E1B7A4A9300457D53 /* 仲間レベル4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "仲間レベル4.jpeg"; sourceTree = "<group>"; };
+		7F7AC7631B7A53D100457D53 /* AttackOniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttackOniViewController.swift; sourceTree = "<group>"; };
+		7F7AC7651B7A5CBC00457D53 /* 背景1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景1.jpg"; sourceTree = "<group>"; };
+		7F7AC7661B7A5CBC00457D53 /* 背景2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景2.jpg"; sourceTree = "<group>"; };
+		7F7AC7671B7A5CBC00457D53 /* 背景3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景3.jpeg"; sourceTree = "<group>"; };
+		7F7AC7681B7A5CBC00457D53 /* 背景4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景4.jpg"; sourceTree = "<group>"; };
+		7F7AC7691B7A5CBC00457D53 /* 背景5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景5.jpg"; sourceTree = "<group>"; };
+		7F7AC76A1B7A5CBC00457D53 /* 背景6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景6.jpeg"; sourceTree = "<group>"; };
+		7F7AC76B1B7A5CBC00457D53 /* 背景7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景7.jpg"; sourceTree = "<group>"; };
+		7F7AC76C1B7A5CBC00457D53 /* 背景8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景8.jpg"; sourceTree = "<group>"; };
+		7F7AC7751B7A64D300457D53 /* 背景9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景9.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +131,18 @@
 		7F450D7F1B71248100C63788 /* 紙芝居 */ = {
 			isa = PBXGroup;
 			children = (
+				7F31E1AA1B8B5ACD00DEDDE1 /* BornViewController.swift */,
 				7F450D821B71248100C63788 /* AppDelegate.swift */,
 				7F450D841B71248100C63788 /* ViewController.swift */,
 				7F450D861B71248100C63788 /* Main.storyboard */,
 				7F450D891B71248100C63788 /* Images.xcassets */,
 				7F450D8B1B71248100C63788 /* LaunchScreen.xib */,
 				7F450D801B71248100C63788 /* Supporting Files */,
+				7F7AC74B1B7A2B9F00457D53 /* GameOverViewController.swift */,
+				7F7AC7531B7A34E900457D53 /* DeparturesViewController.swift */,
+				7F7AC7591B7A41EA00457D53 /* MeetFriendViewController.swift */,
+				7F7AC7631B7A53D100457D53 /* AttackOniViewController.swift */,
+				7F07E3821C4A5A5400986AD7 /* HoriNameClass.swift */,
 			);
 			path = "紙芝居";
 			sourceTree = "<group>";
@@ -90,6 +150,27 @@
 		7F450D801B71248100C63788 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7F7AC7751B7A64D300457D53 /* 背景9.jpg */,
+				7F7AC7651B7A5CBC00457D53 /* 背景1.jpg */,
+				7F7AC7661B7A5CBC00457D53 /* 背景2.jpg */,
+				7F7AC7671B7A5CBC00457D53 /* 背景3.jpeg */,
+				7F7AC7681B7A5CBC00457D53 /* 背景4.jpg */,
+				7F7AC7691B7A5CBC00457D53 /* 背景5.jpg */,
+				7F7AC76A1B7A5CBC00457D53 /* 背景6.jpeg */,
+				7F7AC76B1B7A5CBC00457D53 /* 背景7.jpg */,
+				7F7AC76C1B7A5CBC00457D53 /* 背景8.jpg */,
+				7F7AC75B1B7A4A9300457D53 /* 仲間レベル1.gif */,
+				7F7AC75C1B7A4A9300457D53 /* 仲間レベル2.png */,
+				7F7AC75D1B7A4A9300457D53 /* 仲間レベル3.jpeg */,
+				7F7AC75E1B7A4A9300457D53 /* 仲間レベル4.jpeg */,
+				7F7AC7571B7A390C00457D53 /* ぐれる.jpg */,
+				7F7AC7551B7A37BF00457D53 /* ギャル遊び.jpg */,
+				7F7AC7511B7A34AA00457D53 /* 桃太郎.png */,
+				7F7AC74D1B7A31C200457D53 /* 桃太郎誕生.png */,
+				7F7AC7491B7A2A4300457D53 /* ゲームオーバ.jpeg */,
+				7F7AC7451B7A24BF00457D53 /* ももとおばあちゃん.jpeg */,
+				7F7AC7431B7A23A600457D53 /* 芝刈りと選択.png */,
+				7F7AC7411B7A1CA200457D53 /* おじいちゃんとおばあちゃん.png */,
 				7F450D811B71248100C63788 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +237,7 @@
 		7F450D751B71248100C63788 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "reo harada";
 				TargetAttributes = {
@@ -192,9 +274,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7AC7461B7A24BF00457D53 /* ももとおばあちゃん.jpeg in Resources */,
+				7F7AC7721B7A5CBC00457D53 /* 背景6.jpeg in Resources */,
+				7F7AC75F1B7A4A9300457D53 /* 仲間レベル1.gif in Resources */,
+				7F7AC76D1B7A5CBC00457D53 /* 背景1.jpg in Resources */,
 				7F450D881B71248100C63788 /* Main.storyboard in Resources */,
+				7F7AC7621B7A4A9300457D53 /* 仲間レベル4.jpeg in Resources */,
+				7F7AC74A1B7A2A4300457D53 /* ゲームオーバ.jpeg in Resources */,
+				7F7AC7741B7A5CBC00457D53 /* 背景8.jpg in Resources */,
+				7F7AC74E1B7A31C200457D53 /* 桃太郎誕生.png in Resources */,
+				7F7AC76E1B7A5CBC00457D53 /* 背景2.jpg in Resources */,
 				7F450D8D1B71248100C63788 /* LaunchScreen.xib in Resources */,
+				7F7AC7701B7A5CBC00457D53 /* 背景4.jpg in Resources */,
+				7F7AC7611B7A4A9300457D53 /* 仲間レベル3.jpeg in Resources */,
+				7F7AC76F1B7A5CBC00457D53 /* 背景3.jpeg in Resources */,
+				7F7AC7421B7A1CA200457D53 /* おじいちゃんとおばあちゃん.png in Resources */,
+				7F7AC7521B7A34AA00457D53 /* 桃太郎.png in Resources */,
+				7F7AC7711B7A5CBC00457D53 /* 背景5.jpg in Resources */,
+				7F7AC7561B7A37BF00457D53 /* ギャル遊び.jpg in Resources */,
+				7F7AC7761B7A64D300457D53 /* 背景9.jpg in Resources */,
+				7F7AC7601B7A4A9300457D53 /* 仲間レベル2.png in Resources */,
+				7F7AC7731B7A5CBC00457D53 /* 背景7.jpg in Resources */,
+				7F7AC7581B7A390C00457D53 /* ぐれる.jpg in Resources */,
 				7F450D8A1B71248100C63788 /* Images.xcassets in Resources */,
+				7F7AC7441B7A23A600457D53 /* 芝刈りと選択.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7AC74C1B7A2B9F00457D53 /* GameOverViewController.swift in Sources */,
+				7F7AC7541B7A34E900457D53 /* DeparturesViewController.swift in Sources */,
+				7F7AC7641B7A53D100457D53 /* AttackOniViewController.swift in Sources */,
+				7F7AC75A1B7A41EA00457D53 /* MeetFriendViewController.swift in Sources */,
+				7F31E1AB1B8B5ACD00DEDDE1 /* BornViewController.swift in Sources */,
 				7F450D851B71248100C63788 /* ViewController.swift in Sources */,
 				7F450D831B71248100C63788 /* AppDelegate.swift in Sources */,
+				7F07E3831C4A5A5400986AD7 /* HoriNameClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +518,7 @@
 				7F450D9E1B71248200C63788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F450D9F1B71248200C63788 /* Build configuration list for PBXNativeTarget "紙芝居Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +527,7 @@
 				7F450DA11B71248200C63788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

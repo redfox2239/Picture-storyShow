@@ -1,3 +1,4 @@
+
 //
 //  DeparturesViewController.swift
 //  紙芝居
@@ -32,4 +33,27 @@ class DeparturesViewController: UIViewController {
     }
     */
 
+    @IBAction func selectLife(sender: AnyObject) {
+        let alertController = UIAlertController(title: "人生の選択", message: "このあとどうする？", preferredStyle: UIAlertControllerStyle.ActionSheet)
+
+        let attackAction = UIAlertAction(title: "鬼退治にいく", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+            self.performSegueWithIdentifier("moveAttackOni", sender: nil)
+        }
+        let playAction = UIAlertAction(title: "ギャルと遊ぶ", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+            self.performSegueWithIdentifier("movePlayGirl", sender: nil)
+        }
+        let wildAction = UIAlertAction(title: "世界に失望して、グレる", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+            self.performSegueWithIdentifier("moveWildLife", sender: nil)
+        }
+
+
+        let cancelAction = UIAlertAction(title: "キャンセル", style: UIAlertActionStyle.Cancel) { (UIAlertAction) -> Void in
+        }
+        
+        alertController.addAction(attackAction)
+        alertController.addAction(playAction)
+        alertController.addAction(wildAction)
+        alertController.addAction(cancelAction)
+        presentViewController(alertController, animated: true, completion: nil)
+    }
 }
